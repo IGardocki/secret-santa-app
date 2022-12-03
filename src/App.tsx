@@ -10,9 +10,9 @@ function App() {
 
       <Card style={{ minHeight: "80vh" }}>
 
-        <Card.Title><h1>Hey friend! Sounds like you've gotten the JackBox Party Pack 9 as a Secret Santa gift!</h1></Card.Title>
+        <Card.Title><h1>Hey friend! Sounds like you've gotten the <i>JackBox Party Pack 9</i> as a Secret Santa gift!</h1></Card.Title>
         <br />
-        <Card.Title>Oh, neat. How do I get it?</Card.Title>
+        <Card.Title><h2>Oh, neat. How do I get it?</h2></Card.Title>
         <Card.Body>Well! You can download your digital products from: {` `}
           <a href='https://transactions.sendowl.com/orders/117121526/download/fa132ec9d3a894a9191b56a41c54c9b7'>this link</a>
         </Card.Body>
