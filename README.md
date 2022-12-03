@@ -2,4 +2,4 @@
 
 # qr code below for the deployed heroku app:
 
-![QR code](/src/frame.svg "QR code")
+![QR code](/src/frame.png "QR code")
