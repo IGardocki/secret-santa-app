@@ -1,6 +1,9 @@
 import './App.css';
 import { Container, Card } from 'react-bootstrap';
 import holidayBackground from './holidayBackground.png'
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
+import { EmailForm } from './EmailForm';
 
 function App() {
 
@@ -14,7 +17,12 @@ function App() {
         <br />
         <Card.Title><h2>Oh, neat. How do I get it?</h2></Card.Title>
         <Card.Body>Well! You can download your digital products from: {` `}
-          <a href='https://transactions.sendowl.com/orders/117121526/download/fa132ec9d3a894a9191b56a41c54c9b7'>this link</a>
+          <a href='https://transactions.sendowl.com/orders/117121526/download/fa132ec9d3a894a9191b56a41c54c9b7'>this link</a>.
+          <br/>
+          Or, to get the link via email, enter your email below and hit send!
+          <br/>
+        <EmailForm/>
+    
         </Card.Body>
 
         <Card.Body>
